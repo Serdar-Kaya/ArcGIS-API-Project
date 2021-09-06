@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "New Zealand",
+        "location": "Auckland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.7643280029297, -36.853526940982796]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Japan",
+        "location": "Osaka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.5060577392578, 34.69025093753091]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Australia",
+        "location": "Adelaide"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.60111236572266, -34.928163834493645]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "New Zealand",
+        "location": "Wellington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.7766876220703, -41.289029103669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Japan",
+        "location": "Tokyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.68910217285156, 35.68574469022575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Australia",
+        "location": "Perth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.85975646972655, -31.953327454663953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Switzerland",
+        "location": "Zurich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.542041778564453, 47.37219836593436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Switzerland",
+        "location": "Geneva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.147193908691406, 46.201339471263324]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Australia",
+        "location": "Melbourne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.96219635009766, -37.81412370160446]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "Australia",
+        "location": "Brisbane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.02289962768552, -27.46883054884205]
+      }
+    }
+  ]
+}
