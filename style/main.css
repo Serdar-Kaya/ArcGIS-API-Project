@@ -7,11 +7,7 @@ body,
   width: 100vw;
 }
 
-#viewDiv {
-  filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
-}
-
-/* header {
+header {
   position: absolute;
   top: 0;
   left: 0;
@@ -19,4 +15,10 @@ body,
   font-size: 2em;
   font-family: "Permanent Marker", cursive;
   max-width: 30%;
-} */
+}
+
+.title {
+  border-bottom-right-radius: 70%;
+  font-size: 1.3rem;
+  color: rgb(3, 3, 3);
+}
