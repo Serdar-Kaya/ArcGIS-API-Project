@@ -1,19 +1,26 @@
 require([
-  "esri/WebScene",
   "esri/Map",
   "esri/views/SceneView",
   "esri/layers/GeoJSONLayer",
-], function (WebScene, Map, SceneView) {
-  const webscene = new WebScene({
-    basemap: null,
-    ground: {
-      surfaceColor: [226, 240, 255],
-    },
+], function (Map, SceneView, GeoJSONLayer) {
+  const dataUrl = "./data/locations.json";
+
+  // const template = {
+  //   title: "City",
+  //   content:
+  // }
+
+  const geojsonLayer = new GeoJSONLayer({
+    title: "Most livable cities",
+    url: dataUrl,
+    // popupTemplate: template,
   });
 
   const map = new Map({
-    basemap: "topo",
+    basemap: "dark-gray",
+    layers: [geojsonLayer],
   });
+
   const view = new SceneView({
     map: map,
     container: "viewDiv",
