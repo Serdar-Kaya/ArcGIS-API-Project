@@ -5,15 +5,9 @@ require([
 ], function (Map, SceneView, GeoJSONLayer) {
   const dataUrl = "./data/locations.json";
 
-  // const template = {
-  //   title: "City",
-  //   content:
-  // }
-
   const geojsonLayer = new GeoJSONLayer({
     title: "Most livable cities",
     url: dataUrl,
-    // popupTemplate: template,
   });
 
   const map = new Map({
